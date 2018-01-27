@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Phần mềm ghi đơn hàng coffee"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:background="@drawable/boder"
+        />
+
+    <ViewFlipper
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/img_list"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/thuan"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/thong" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/minhman" />
+
+    </ViewFlipper>
+
+
+</LinearLayout>
